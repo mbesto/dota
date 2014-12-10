@@ -28,7 +28,7 @@ module Dota
       end
 
       def league_id
-        league_id = raw["league_id"]
+        raw["league_id"]
       end
 
       def stream_delay
